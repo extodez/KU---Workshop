@@ -15,5 +15,5 @@ docker exec db127edf2d93  sed -i 's/allow_url_include = Off/allow_url_include = 
 docker exec db127edf2d93 /etc/init.d/apache2 reload
 ```
 
-#Get into a Docker container's shell.
+## Get into a Docker container's shell.
 > docker exec -it db127edf2d93 bash
