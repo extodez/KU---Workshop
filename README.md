@@ -10,6 +10,9 @@ docker container ls
 docker exec <CONTAINER ID> /etc/init.d/apache2 reload
 ```
 
+### Docker stop container:
+> docker stop [OPTIONS] CONTAINER [CONTAINER...]
+
 ## LFI Lab enabled:
 ```
 docker exec <CONTAINER ID>  sed -i 's/allow_url_include = Off/allow_url_include = On/g' /etc/php/7.0/apache2/php.ini
