@@ -21,3 +21,6 @@ docker exec <CONTAINER ID> /etc/init.d/apache2 reload
 
 ## Get into a Docker container's shell.
 > docker exec -it <CONTAINER ID> bash
+
+## Kill docker process
+> docker kill $(docker ps -q)
