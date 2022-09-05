@@ -24,3 +24,6 @@ docker exec <CONTAINER ID> /etc/init.d/apache2 reload
 
 ## Kill docker process
 > docker kill $(docker ps -q)
+
+## Docker Cheatsheet for remove and etc.
+> https://shisho.dev/blog/posts/docker-remove-cheatsheet/
